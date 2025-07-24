@@ -60,3 +60,5 @@ This application is meant to be used for:
 - Learning about common web application vulnerabilities
 - Understanding secure coding practices (by seeing what NOT to do)
 - Showing how secret scanning tools detect exposed credentials
+
+
