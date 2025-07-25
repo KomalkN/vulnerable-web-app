@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 const minimist = require('minimist');
 
 const app = express();
-const port = 3001;
+const port = 3000;
 
 // Vulnerability 1: Insecure parsing of user input
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -85,8 +85,6 @@ app.get('/profile', (req, res) => {
     </html>
   `);
 });
-
-
 
 // Vulnerability 10: Insecure parsing of command line arguments
 const args = minimist(process.argv.slice(2));
